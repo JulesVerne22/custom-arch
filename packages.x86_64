@@ -143,7 +143,6 @@ partclone
 parted
 partimage
 pcsclite
-pinta
 plasma-meta
 plasma-workspace
 plocate
@@ -157,7 +156,6 @@ pv
 python-pip
 python-pipx
 python-poetry-core
-python-terminaltexteffects
 qemu-guest-agent
 refind
 reflector
@@ -189,12 +187,9 @@ tpm2-tss
 tree-sitter-cli
 ttf-cascadia-mono-nerd
 ttf-fira-code
-ttf-ia-writer
 ttf-jetbrains-mono-nerd
-tzupdate
 udftools
 ufw
-ufw-docker
 unzip
 usb_modeswitch
 usbmuxd
@@ -206,7 +201,6 @@ vpnc
 vulkan-intel
 vulkan-nouveau
 vulkan-radeon
-walker-bin
 wezterm
 wget
 whois
@@ -228,7 +222,17 @@ xmlstarlet
 xorg-xinit
 xournalpp
 yarn
-yaru-icon-theme
-yay
 zoxide
 zsh
+
+# Custom Packages
+elephant
+klassy
+pinta
+python-terminaltexteffects
+ttf-ia-writer
+tzupdate
+ufw-docker
+walker-bin
+yaru-icon-theme
+yay
