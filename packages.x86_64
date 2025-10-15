@@ -136,7 +136,6 @@ memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 mkinitcpio-nfs-utils
-mkinitcpio-openswap
 mmc-utils
 modemmanager
 mpv
@@ -261,7 +260,6 @@ xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau
 xf86-video-qxl
-xf86-video-vmware
 xfsprogs
 xl2tpd
 xmlstarlet
@@ -277,6 +275,7 @@ zsh
 # Custom Packages
 elephant
 klassy
+mkinitcpio-openswap
 pinta
 python-terminaltexteffects
 timeshift-autosnap
