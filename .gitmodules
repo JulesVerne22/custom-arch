@@ -1,0 +1,6 @@
+[submodule "airootfs/etc/skel/.config/nvim"]
+	path = airootfs/etc/skel/.config/nvim
+	url = git@github.com:JulesVerne22/JulianSmith.nvim.git
+[submodule "airootfs/root/.config/nvim"]
+	path = airootfs/root/.config/nvim
+	url = git@github.com:JulesVerne22/JulianSmith.nvim.git
