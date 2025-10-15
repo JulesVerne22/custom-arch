@@ -1,0 +1,149 @@
+commands = {}
+dependencies = {
+   ["nvim-dap"] = {
+      ["scm-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               },
+               {
+                  op = "<",
+                  version = {
+                     5, 4, string = "5.4"
+                  }
+               }
+            },
+            name = "lua"
+         }
+      }
+   },
+   ["nvim-dap-python"] = {
+      ["scm-1"] = {
+         {
+            constraints = {
+               {
+                  op = ">=",
+                  version = {
+                     5, 1, string = "5.1"
+                  }
+               },
+               {
+                  op = "<",
+                  version = {
+                     5, 4, string = "5.4"
+                  }
+               }
+            },
+            name = "lua"
+         },
+         {
+            constraints = {},
+            name = "nvim-dap"
+         }
+      }
+   }
+}
+modules = {
+   dap = {
+      "nvim-dap/scm-1"
+   },
+   ["dap-python"] = {
+      "nvim-dap-python/scm-1"
+   },
+   ["dap._cmds"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.async"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.breakpoints"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.entity"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.ext.autocompl"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.ext.vscode"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.health"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.log"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.progress"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.protocol"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.repl"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.rpc"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.session"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.ui"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.ui.widgets"] = {
+      "nvim-dap/scm-1"
+   },
+   ["dap.utils"] = {
+      "nvim-dap/scm-1"
+   }
+}
+repository = {
+   ["nvim-dap"] = {
+      ["scm-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {},
+            modules = {
+               dap = "dap.lua",
+               ["dap._cmds"] = "dap/_cmds.lua",
+               ["dap.async"] = "dap/async.lua",
+               ["dap.breakpoints"] = "dap/breakpoints.lua",
+               ["dap.entity"] = "dap/entity.lua",
+               ["dap.ext.autocompl"] = "dap/ext/autocompl.lua",
+               ["dap.ext.vscode"] = "dap/ext/vscode.lua",
+               ["dap.health"] = "dap/health.lua",
+               ["dap.log"] = "dap/log.lua",
+               ["dap.progress"] = "dap/progress.lua",
+               ["dap.protocol"] = "dap/protocol.lua",
+               ["dap.repl"] = "dap/repl.lua",
+               ["dap.rpc"] = "dap/rpc.lua",
+               ["dap.session"] = "dap/session.lua",
+               ["dap.ui"] = "dap/ui.lua",
+               ["dap.ui.widgets"] = "dap/ui/widgets.lua",
+               ["dap.utils"] = "dap/utils.lua"
+            }
+         }
+      }
+   },
+   ["nvim-dap-python"] = {
+      ["scm-1"] = {
+         {
+            arch = "installed",
+            commands = {},
+            dependencies = {
+               ["nvim-dap"] = "scm-1"
+            },
+            modules = {
+               ["dap-python"] = "dap-python.lua"
+            }
+         }
+      }
+   }
+}

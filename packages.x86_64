@@ -23,6 +23,7 @@ clang
 clonezilla
 cloud-init
 cmake
+composer
 cryptsetup
 cups
 cups-browsed
@@ -69,6 +70,7 @@ frameworkintegration5
 fsarchiver
 fzf
 git
+git-lfs
 github-cli
 go
 gpart
@@ -94,7 +96,9 @@ intel-media-driver
 irssi
 iw
 iwd
+jdk-openjdk
 jfsutils
+julia
 kate
 kcmutils5
 kconfigwidgets5
@@ -194,12 +198,15 @@ pv
 python-pip
 python-pipx
 python-poetry-core
+python-pynvim
 qemu-guest-agent
 qt6-wayland
 refind
 reflector
+ripgrep
 rsync
-rust
+ruby
+rustup
 rxvt-unicode-terminfo
 satty
 screen

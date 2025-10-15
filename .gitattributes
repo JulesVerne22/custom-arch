@@ -1,0 +1,6 @@
+airootfs/etc/skel/.local/share/nvim/mason/packages/clangd/clangd_21.1.0/bin/clangd filter=lfs diff=lfs merge=lfs -text
+airootfs/etc/skel/.local/share/nvim/mason/packages/hadolint/hadolint-Linux-x86_64 filter=lfs diff=lfs merge=lfs -text
+airootfs/etc/skel/.local/share/nvim/mason/packages/codelldb/extension/lldb/lib/liblldb.so filter=lfs diff=lfs merge=lfs -text
+airootfs/root/.local/share/nvim/mason/packages/clangd/clangd_21.1.0/bin/clangd filter=lfs diff=lfs merge=lfs -text
+airootfs/root/.local/share/nvim/mason/packages/hadolint/hadolint-Linux-x86_64 filter=lfs diff=lfs merge=lfs -text
+airootfs/root/.local/share/nvim/mason/packages/codelldb/extension/lldb/lib/liblldb.so filter=lfs diff=lfs merge=lfs -text
