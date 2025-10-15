@@ -4,3 +4,9 @@
 [submodule "airootfs/root/.config/nvim"]
 	path = airootfs/root/.config/nvim
 	url = git@github.com:JulesVerne22/JulianSmith.nvim.git
+[submodule "airootfs/etc/skel/.local/share/nvim/lazy/Comment.nvim"]
+    path = airootfs/etc/skel/.local/share/nvim/lazy/Comment.nvim
+    url = https://github.com/numToStr/Comment.nvim.git
+[submodule "airootfs/root/.local/share/nvim/lazy/Comment.nvim"]
+    path = airootfs/root/.local/share/nvim/lazy/Comment.nvim
+    url = https://github.com/numToStr/Comment.nvim.git
