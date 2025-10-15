@@ -92,8 +92,8 @@ fi
 
 # Entries
 efiloader=(efiboot/loader)
-sed -i 's/Arch/JulianLinux/' $efiloader/entries/01-archiso-x86_64-linux.conf
-sed -i 's/Arch/JulianLInux/' $efiloader/entries/02-archiso-x86_64-speech-linux.conf
+sed -i 's/Arch/JulianLinux/' $efiloader/entries/01-archiso-linux.conf
+sed -i 's/Arch/JulianLInux/' $efiloader/entries/02-archiso-speech-linux.conf
 
 # Loader
 sed -i 's/beed on/beep off/' $efiloader/loader.conf
