@@ -14,11 +14,11 @@ bind
 bluez
 bluez-utils
 bolt
+boost
 brltty
 broadcom-wl
 btop
 btrfs-progs
-calamares
 clang
 clonezilla
 cloud-init
@@ -102,12 +102,14 @@ julia
 kate
 kcmutils5
 kconfigwidgets5
+kcoreaddons
 kdenlive
 kiconthemes5
 kirigami2
 kitty
 kitty-terminfo
 konsole
+kpmcore
 kvantum-qt5
 kwindowsystem5
 lazydocker
@@ -116,6 +118,7 @@ ldns
 less
 lftp
 libfido2
+libpwquality
 libreoffice-fresh
 libusb-compat
 libva-intel-driver
@@ -200,6 +203,7 @@ python-pipx
 python-poetry-core
 python-pynvim
 qemu-guest-agent
+qt6
 qt6-wayland
 refind
 reflector
@@ -276,6 +280,7 @@ xorg-xkill
 xorg-xrdb
 xournalpp
 xterm
+yaml-cpp
 yarn
 zoxide
 zsh
