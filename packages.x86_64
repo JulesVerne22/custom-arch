@@ -278,6 +278,7 @@ xmlstarlet
 xorg-xinit
 xorg-xkill
 xorg-xrdb
+xorg-xwayland
 xournalpp
 xterm
 yaml-cpp

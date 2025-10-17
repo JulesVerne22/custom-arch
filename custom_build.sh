@@ -45,7 +45,7 @@ sed -i 's/DisplayServer=x11/DisplayServer=wayland/' $airootfs/sddm.conf
 sed -i 's/Numlock=none/Numlock=on/' $airootfs/sddm.conf
 
 # User
-user=jsmith
+user=julianlinux
 sed -i 's/User=/User='$user'/' $airootfs/sddm.conf
 
 ## Hostname
