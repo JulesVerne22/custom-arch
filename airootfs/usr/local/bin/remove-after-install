@@ -1,3 +1,5 @@
 #!/bin/bash
 
-pacman -R --noconfirm calamares gparted
+pacman -R --noconfirm gparted
+
+rm /usr/bin/calamares
