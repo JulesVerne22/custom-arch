@@ -1,6 +1,12 @@
 #!/bin/bash
 
 # Setup Neovim offline configs
+mkdir -p airootfs/root/.config
+mkdir -p airootfs/root/.local/share
+mkdir -p airootfs/root/.local/state
+mkdir -p airootfs/etc/skel/.config
+mkdir -p airootfs/etc/skel/.local/share
+mkdir -p airootfs/etc/skel/.local/state
 tar -xzvf local/artifacts/nvim-config.tar.gz -C airootfs/root/.config
 tar -xzvf local/artifacts/nvim-share.tar.gz -C airootfs/root/.local/share
 tar -xzvf local/artifacts/nvim-state.tar.gz -C airootfs/root/.local/state
