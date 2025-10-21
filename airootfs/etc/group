@@ -1,5 +1,5 @@
 root:x:0:root
-adm:x:4:jsmith
-wheel:x:10:jsmith
-uucp:x:14:jsmith
-jsmith:x:1000:jsmith
+adm:x:4:julianlinux
+wheel:x:10:julianlinux
+uucp:x:14:julianlinux
+julianlinux:x:1000:julianlinux
