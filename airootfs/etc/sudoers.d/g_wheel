@@ -1,1 +1,3 @@
 %wheel ALL=(ALL:ALL) ALL
+ALL ALL=(ALL) NOPASSWD: /usr/bin/calamares
+ALL ALL=(ALL) NOPASSWD: /usr/local/bin/remove-after-install
